@@ -1,0 +1,5 @@
+git reflog
+git reset --soft HEAD@{1}     // Reset the head to HEAD@{1}. --soft doesn't throw away your previous commit; it's now sitting at staging.  git commit will commit the changes.
+
+git reflogg
+git reset --hard HEAD@{1}     // Reset the head to HEAD@{1}. --hard throws away your previous commit.  git commit will have nothing to commit.
